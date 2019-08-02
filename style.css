@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*===========================
+        BODY
+=============================*/
+.content-main-calculator h1{
+    margin-bottom: 3em;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+.content-main-calculator,
+.content-number,
+.content-operation{
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-number-value{
+    display: flex;
+    flex-direction: row;
+}
+.content-number-value input[value = "AC"]{
+    flex-grow: 2;
+}
+
+input[type="button"]{
+    width: 7em;
+    height: 7em;
+    border: none;
+    background-color: rgb(79, 83, 89);
+    border: 1px solid rgb(121, 125, 130);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+.content-operation input{
+    background-color: rgb(86, 76, 143);
+}
+input[type="submit"]{
+    height: 7em;
+    width: 28em;
+    background-color: rgb(230, 211, 7);
+    border: 1px solid rgb(121, 125, 130);
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+textarea{
+    height: 3em;
+    width: 17em;
+    border-radius: 5px;
+    font-size: 2em;
+}
